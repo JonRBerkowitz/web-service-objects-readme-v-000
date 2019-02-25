@@ -1670,3 +1670,24 @@ Processing by SearchesController#search as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=LVJEVJ4BCTANBM5CY1FYBULOYBLIQXYHM4NM22HOTLVJCKAS&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.123.199.176 at 2019-02-25 21:36:39 +0000
+Cannot render console from 73.123.199.176! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LVJEVJ4BCTANBM5CY1FYBULOYBLIQXYHM4NM22HOTLVJCKAS&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WG0VU4RWPW04IQTQD5IGJF1DX3FB043JOKS3L3WNGERQZMH3" for 73.123.199.176 at 2019-02-25 21:37:49 +0000
+Cannot render console from 73.123.199.176! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/JonRBerkowitz/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:6: syntax error, unexpected ')', expecting keyword_end):
+  app/controllers/sessions_controller.rb:6: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.8ms)
