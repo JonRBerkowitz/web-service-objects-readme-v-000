@@ -1726,3 +1726,11 @@ Cannot render console from 73.123.199.176! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 73.123.199.176 at 2019-02-25 21:38:31 +0000
 Cannot render console from 73.123.199.176! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/search" for 73.123.199.176 at 2019-02-25 21:38:40 +0000
+Cannot render console from 73.123.199.176! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I06F9Uy61MLR4LM1ejzFnvH6a+PqHLAb2jfZwPZ7sRK4lKHbZCkxwEwdqnneQ7hYRTSX6YilhtSfqInPH3EBSg==", "zipcode"=>"01906", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 237ms (Views: 45.3ms | ActiveRecord: 0.0ms)
