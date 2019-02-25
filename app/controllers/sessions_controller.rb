@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
 
   def create
     foursquare = FoursquareService.new
-    session[:token] = foursquare.authenticate!(ENV['FOURSQUARE_CLIENT_ID']), ENV['FOURSQUARE_SECRET'], params[:code])
+    session[:token] = foursquare.authenticate!('LVJEVJ4BCTANBM5CY1FYBULOYBLIQXYHM4NM22HOTLVJCKAS'), '1GSGX0OQCLKOMYKISRAMFTGYPUSC00NGK1FJTB2WKSPO2QAY', params[:code])
     redirect_to root_path
   end
 
